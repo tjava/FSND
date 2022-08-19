@@ -10,4 +10,6 @@ DEBUG = True
 
 
 # TODO IMPLEMENT DATABASE URL
-SQLALCHEMY_DATABASE_URI = '<Put your local database url>'
+# SQLALCHEMY_DATABASE_URI = '<Put your local database url>'
+# SQLALCHEMY_DATABASE_URI = 'postgresql://nano1:1234@localhost:5432/nanodb'
+SQLALCHEMY_DATABASE_URI = 'postgresql://nano:Password@postgresql-85650-0.cloudclusters.net:10487/new'
